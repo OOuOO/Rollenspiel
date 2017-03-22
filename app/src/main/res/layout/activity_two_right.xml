@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:text="Du erblickst eine Schlange mit übelem Mundgeruch. Die Schlange scheint missmutig zu sein und sehr angriffslustig. Versuchst du dich in die Schlange einzufühlen und Zeit mit ihr zu verbringen oder ignorierst du sie und schlägst einen großen Bogen?" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/tvschlangeJa"
+            android:layout_weight="1"
+            android:text="Hey Schlange, was ist denn mit dir los? Warum bist du so missmutig?"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/tvschlangeNein"
+            android:layout_weight="1"
+            android:text="Um die mache ich lieber einen großen Bogen!"
+            android:gravity="center"/>
+    </LinearLayout>
+
+</LinearLayout>
+

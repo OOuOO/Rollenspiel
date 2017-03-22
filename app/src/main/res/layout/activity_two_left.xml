@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:text="Vor dir steht ein Mann mit 12 Augen und einem Ohr. Möchtest du ihn nach dem weiteren Weg fragen oder lieber nicht?" />
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="0dp"
+         android:layout_weight="1"
+         android:orientation="horizontal"
+         >
+
+         <TextView
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:id="@+id/tvFragen"
+             android:layout_weight="1"
+             android:text="Fragen"
+             android:gravity="center"/>
+
+         <TextView
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:id="@+id/tvnichtFragen"
+             android:layout_weight="1"
+             android:text="Lieber nicht fragen"
+             android:gravity="center"/>
+     </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
